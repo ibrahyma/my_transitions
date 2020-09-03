@@ -1,0 +1,64 @@
+body
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 10vh 25vw;
+}
+
+#obj
+{
+    background: gray;
+    height: 200px;
+    width: 200px;
+}
+
+.button
+{
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    font-family: "Comic Sans MS";
+    font-size: 16pt;
+    height: 25px;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 10pt;
+    width: 150px;
+}
+
+.button.used
+{
+    background-color: gray;
+    transition: background-color 750ms;
+}
+
+.button.unused
+{
+    transition: background-color 1500ms;
+}
+
+#opacity.unused
+{
+    background: purple;
+}
+
+#translation.unused
+{
+    background: green;
+}
+
+#scale.unused
+{
+    background: red;
+}
+
+#rotation.unused
+{
+    background: blue;
+}
+
+#radius.unused
+{
+    background: rgb(0, 125, 128);
+}
